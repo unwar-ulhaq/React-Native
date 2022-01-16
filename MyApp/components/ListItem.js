@@ -23,14 +23,15 @@ const styles = StyleSheet.create({
   touchableOpacity: {
     flexDirection: 'row',
     padding: 10,
-    backgroundColor: '#989898',
-    borderBottomWidth: 4,
-    borderBottomColor: '#ffffff',
+    backgroundColor: '#404040',
+    margin: 8,
   },
   touchableImage: {
     flex: 1,
     padding: 30,
     flexWrap: 'wrap',
+    borderRadius: 8,
+    borderBottomLeftRadius: 48,
   },
   touchableText: {
     flex: 2,

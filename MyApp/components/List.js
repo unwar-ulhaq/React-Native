@@ -38,6 +38,7 @@ const mediaArray = [
 const List = () => {
   return (
     <FlatList
+      style={{flex: 1}}
       data={mediaArray}
       renderItem={({item}) => <ListItem singleMedia={item} />}
     />
