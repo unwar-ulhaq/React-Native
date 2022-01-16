@@ -2,7 +2,7 @@ import React from 'react';
 import {Platform, StyleSheet} from 'react-native';
 import {StatusBar} from 'expo-status-bar';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import List from './components/List';
+import {List} from './components';
 
 const App = () => {
   return (
