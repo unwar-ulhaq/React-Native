@@ -1,7 +1,6 @@
 import React from 'react';
-import {Platform, StyleSheet} from 'react-native';
-import {StatusBar} from 'expo-status-bar';
-import {SafeAreaView} from 'react-native-safe-area-context';
+import {Platform, SafeAreaView, StatusBar, StyleSheet} from 'react-native';
+
 import List from './components/List';
 
 const App = () => {
