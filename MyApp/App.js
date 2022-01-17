@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     marginBottom: 32,
+    borderBottomRightRadius: 32,
   },
   text: {
     position: 'absolute',
